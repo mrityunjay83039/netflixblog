@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App{
+  display: flex;
+  padding: 50px;
+}
+
+.cards{
+  /* display: flex; */
+}
+
+.card{
+  background-color: aliceblue;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  /* width: 300px; */
+  margin: 5px;
+  padding: 15px;
+  min-height: 300px;
+}
+
+.card__img{
+  width: 100%;
+}
+
+.card__link {
+  color: #fff;
+  background: #000;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top:40px;
+  display: block;
+}

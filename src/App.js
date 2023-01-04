@@ -1,24 +1,32 @@
 import logo from './logo.svg';
+import Card from './Card';
 import './App.css';
+import Sdata from './Sdata';
+
+function ncard(val){
+  return(
+    <Card
+      imgSrc = {val.imgsrc}
+      title = {val.title}
+      sname = {val.sname}
+      link = {val.links}
+    />
+  )
+}
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <h1 style={{textAlign:'center', textDecoration:'underline'}}>Top 5 Netflix Web Series</h1>
+      <div className="App">
+      
+        
+        {Sdata.map(ncard)}
+        
+
+      </div>
+    </>
+    
   );
 }
 
