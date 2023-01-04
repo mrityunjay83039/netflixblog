@@ -1,3 +1,7 @@
+# Purpose of this project
+This project is developed only for the learning purpose. If you are learning react and just started, This could be a good project
+to start with. Here you will use map function and will play with different components.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
